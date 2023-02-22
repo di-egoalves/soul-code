@@ -1,0 +1,89 @@
+body {
+    height: 900px;
+    /* background-color: khaki; */
+    background-image: url("../images/soul_coders.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.p1 {
+    border-style: dotted;
+    background-color: tomato;
+}
+
+.p2 {
+    border-style: dashed;
+    background-color: orange;
+}
+
+.p3 {
+    border-style: solid;
+    background-color: dodgerblue;
+}
+
+.p4 {
+    border-style: double;
+    background-color: mediumseagreen;
+}
+
+.p5 {
+    border-style: groove;
+    background-color: pink;
+}
+
+.p6 {
+    border-style: ridge;
+    background-color: red;
+}
+
+.p7 {
+    border-style: inset;
+    background-color: violet;
+}
+
+.p8 {
+    border-style: outset;
+    background-color: lightgray;
+}
+
+.t1 {
+    border-style: none;
+    color: royalblue;
+}
+
+.pr1 {
+    border-style: hidden;
+    color: greenyellow;
+}
+
+.pr2 {
+    border-style: dotted dashed solid double;
+    color: hotpink;
+}
+
+.t2 {
+    border-style: solid;
+    border-width: 5px;
+    background-color: rgb(255, 99, 71);
+}
+
+.t3 {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    background-color: #ff6347;
+}
+
+.t4 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    background-color: hsl(9, 100%, 64%);
+}
+
+.t5 {
+    border: 2px solid red;
+}
+
+.t6 {
+    background-color: hsla(9, 100%, 64%, 0.2);
+}

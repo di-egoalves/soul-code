@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #F5A4BE;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 00px;
+    position: fixed;
+}
+
+.logo {
+    height: 39px;
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0px 10px;
+    margin-left: 0px;
+}
+
+.menu li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 30px 10px;
+
+}
+
+.menu li :hover {
+    color: #F493AD;
+    text-decoration: underline;
+}
+
+.icon li {
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.icon img {
+    height: 25px;
+    padding: 5px;
+}
+
+.categorias {
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #f493ad;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0px 0px;
+}
+
+.categorias li {
+    display: inline-flex;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.categorias li :hover {
+    background-color: white;
+    color: #F493AD;
+}
+
+.banner img {
+    padding: 10px 0px;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+}
+
+.vantagens {
+    background-color: #f0f0f0;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vantagens button {
+    height: 70px;
+    width: auto;
+    padding: 0px 20px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: solid;
+    border-color: transparent;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 0.5rem;
+    ;
+}
+
+.vantagens :hover {
+    border-color: #F493AD;
+}
+
+.vantagens img {
+    padding: 0 20px 0 0;
+}
+
+.textomaisvendidos, .cadastro-promocoes{
+    color: #F493AD;
+    text-align: center;
+}
+
+.maisvendidos {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.maisvendidos div{
+    border-style: solid;
+    border-color: #f0f0f0;
+    border-radius: 1rem;
+    width: 360px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.maisvendidos img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 300px;
+    border-radius: 0.5rem;
+}
+
+.maisvendidos h3{
+    color: #F493AD;
+}
+
+.maisvendidos button{
+    color: white;
+    background-color: #F5A4BE;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+
+.maisvendidos button p{
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.maisvendidos button :hover{
+    transform: scale(1.1);
+    background-color: #ee7192;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.cadastrocaixa{
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.cadastro {
+    padding: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cadastro input {
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
+.cadastro button {
+    background-color: #ee7192;
+    margin-right: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #ee7192;
+    line-height: 1.5;
+}
+.rodape ul {
+    color: white;
+}
+
+.institucional {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.redessociais img{
+    width: 30px;
+}
+
+.institucional a {
+    text-decoration: none;
+    color: #F5A4BE;
+}
+
+.cnpj {
+    color: white;
+    padding: 40px;
+    display: block;
+    text-align: center;
+    background-color: #ee7192;
+}
